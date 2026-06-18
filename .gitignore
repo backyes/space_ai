@@ -1,0 +1,34 @@
+# Space AI 项目 .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude
+.claude/plans/
+.claude/tasks/
+.claude/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+
+# Temp files
+*.tmp
+*.bak
+*.log
+
+# OS
+Thumbs.db
